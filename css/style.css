@@ -1,0 +1,357 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+header{
+    display: flex;
+    margin-bottom: 10px;
+}
+.coffeeroasters{
+    width: 236px;
+    height: 26px;
+    /* margin-left: 200px; */
+    margin-top: 10px;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    margin-left: 650px;
+}
+.menu_item{
+    margin-left: 40px;
+}
+.menu_link{
+    text-decoration: none;
+    color: #83888F;
+}
+.menu_link:hover{
+    color: black;
+    cursor:pointer;
+}
+/* .content{
+    background-image: url('/image/Bitmap.png');
+} */
+.left{
+    transform: translateY(-500px);
+    margin-left: 90px;
+    margin-top: -50px;
+}
+.heading{
+    /* width: 493px;
+    height: 145px; */
+    color: white;
+    font-size: 72px;
+    font-family: 'Fraunces 9pt', sans-serif;
+}
+.text{
+    /* width: 445px;
+    height: 78px; */
+    color: white;
+    font-size: 26px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #0E8784;
+    text-decoration: none;
+    border: 1px solid #0E8784;
+    color: white;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #66D2CF;
+    border: 1px solid #66D2CF;
+    color: #FEFCF7;
+}
+.btn:active{
+    background-color: #E2DEDB;
+    border: 1px solid #E2DEDB;
+    color: #FEFCF7;
+}
+.bitmap{
+    width: 1350px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+
+.collection{
+    margin-top: -300px;
+}
+.our-collection{
+    font-size: 130px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-right: 50px;
+    color: #D8D8D7;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* background-image: linear-gradient(#D8D8D7, #F7F5F1);    */
+}
+.collection_menu{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    transform: translateY(-190px);
+}
+.collection_item{
+    margin-left: 50px;
+}
+.collection_link{
+    text-decoration: none;
+    color: black;
+}
+
+.box{
+    width: 1350px;
+    height: 577px;
+    background-color: #293039;
+    border-radius: 10px;
+}
+.box-heading{
+    transform: translateY(130px);
+    color:white;
+    text-align: center;
+    font-size: 48px;
+}
+.box-text{
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+    /* font-size: 20px; */
+    letter-spacing: 4px;
+    line-height: 30px;
+}
+.box_menu{
+    list-style-type: none;
+    display: flex;  
+    text-align: center;       
+    align-items: center;                                                         
+}
+.box_item{
+    width: 350px;
+    height: 382px;
+    background-color: #0E8784;
+    margin-left: 55px;
+    transform: translateY(-250px);
+    border-radius: 10px;
+}
+.box_link{
+    text-decoration: none;
+    color: white;
+}
+.headings{
+    margin-top: 100px;
+}
+.menu_heading{
+    font-size: 32px;
+}
+.menu_text{
+    font-size: 20px;
+}
+
+.wrapper_heading{
+    color: #83888F;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-top: -150px;
+}
+.line{
+    height: 5px;
+    width: 850px;
+    background-color: #FDDFC8;
+    transform: translateX(100px);
+}
+.circle_menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-15px);
+    margin-left: -50px;
+}
+.circle{
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+    background-color: white;
+}
+.wrapper_menu{
+    list-style-type: none;
+    display: flex;
+    margin-left: 50px;
+}
+.wrapper_item{
+    width: 285px;
+    height: 355px;
+    margin-right: 125px;
+}
+.big_heading{
+    font-size: 72px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: #FDD6B9;
+}
+.item_heading{
+    font-size: 36px;
+}
+.wrapper_item p{
+    line-height: 20px;
+}
+.button{
+    padding: 10px 20px;
+    background-color: #0E8784;
+    text-decoration: none;
+    border: 1px solid #0E8784;
+    color: white;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+.button:hover{
+    background-color: #66D2CF;
+    border: 1px solid #66D2CF;
+    color: #FEFCF7;
+}
+.button:active{
+    background-color: #E2DEDB;
+    border: 1px solid #E2DEDB;
+    color: #FEFCF7;
+}
+
+/* footer */
+.footer{
+    background-color: #2C343E;
+}
+.footer .container{
+    height: 120px;
+    padding: 20px 0;
+    display: flex;
+}
+.footer_menu{
+    list-style-type: none;
+    display: flex;
+    margin-top: 55px;
+}
+.footer_item{
+    margin-left: 30px;
+}
+.footer_link{
+    text-decoration: none;
+    color: #83888F;
+}
+.footer_link:hover{
+    color: black;
+    cursor:pointer;
+}
+.coffee_logo{
+    margin-top: 30px;
+}
+.image{
+    width: 24px;
+    height: 24px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.image_div{
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+/* About Us */
+.about-logo{
+        width: 1350px;
+        height: 450px;
+        border-radius: 5px;
+}
+.about_heading{
+    margin-top: 200px;
+    color: white;
+    font-size: 48px;
+}
+.about_text{
+    color: white;
+    line-height: 30px;
+}
+
+
+.commitment{
+    display: flex;
+}
+.commitment_img{
+    margin-left: 100px;
+    margin-top: -210px;
+}
+.commit_nav{
+    margin-top: -170px;
+    margin-left: 100px;
+}
+.commit_nav h3{
+    width: 357px;
+    font-size: 48px;
+}
+.commit_nav p{
+    color: #333D4B;
+    font-size: 20px;
+    line-height: 25px;
+}
+.quality{
+    width: 1350px;
+    height: 474px;
+    background-color: #293039;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 200px;
+}
+.quality_nav{
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.quality_heading{
+    color: white;
+    font-size: 48px;
+}
+.quality_text{
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+}
+.quality_img{
+    width: 445px;
+    height: 474px;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: -120px;
+}
+
+.headquarter_heading{
+    color: #83888F;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.countries{
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 100px;
+}
+.country{
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+.country_heading{
+    font-size: 36px;
+}
+.country_text{
+    font-size: 20px;
+    line-height: 30px;
+}
