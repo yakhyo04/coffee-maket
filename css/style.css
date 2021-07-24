@@ -354,3 +354,22 @@ header{
     font-size: 20px;
     line-height: 30px;
 }
+
+
+
+
+/* Create a plan */
+.plan{
+    width: 1350px;
+    height: 450px;
+    border-radius: 5px;
+}
+.plan_heading{
+    margin-top: 200px;
+    color: white;
+    font-size: 72px;
+}
+.plan_text{
+    color: white;
+    line-height: 30px;
+}
