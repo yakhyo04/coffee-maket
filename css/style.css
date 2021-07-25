@@ -8,54 +8,54 @@ body {
     margin-right: auto;
     margin-top: 0;
 }
-header{
+.header{
     display: flex;
     margin-bottom: 10px;
 }
-.coffeeroasters{
+.header__img{
     width: 236px;
     height: 26px;
     /* margin-left: 200px; */
     margin-top: 10px;
 }
-.menu{
+.header__list{
     list-style-type: none;
     display: flex;
     margin-left: 650px;
 }
-.menu_item{
+.header_item{
     margin-left: 40px;
 }
-.menu_link{
+.header_link{
     text-decoration: none;
     color: #83888F;
 }
-.menu_link:hover{
+.header_link:hover{
     color: black;
     cursor:pointer;
 }
 /* .content{
     background-image: url('/image/Bitmap.png');
 } */
-.left{
+.content__left{
     transform: translateY(-500px);
     margin-left: 90px;
     margin-top: -50px;
 }
-.heading{
+.content__heading{
     /* width: 493px;
     height: 145px; */
     color: white;
     font-size: 72px;
     font-family: 'Fraunces 9pt', sans-serif;
 }
-.text{
+.content__text{
     /* width: 445px;
     height: 78px; */
     color: white;
     font-size: 26px;
 }
-.btn{
+.content__btn{
     padding: 10px 20px;
     background-color: #0E8784;
     text-decoration: none;
@@ -63,17 +63,17 @@ header{
     color: white;
     border-radius: 5px;
 }
-.btn:hover{
+.content__btn:hover{
     background-color: #66D2CF;
     border: 1px solid #66D2CF;
     color: #FEFCF7;
 }
-.btn:active{
+.content__btn:active{
     background-color: #E2DEDB;
     border: 1px solid #E2DEDB;
     color: #FEFCF7;
 }
-.bitmap{
+.content__img{
     width: 1350px;
     height: 600px;
     border-radius: 5px;
@@ -83,7 +83,7 @@ header{
 .collection{
     margin-top: -300px;
 }
-.our-collection{
+.collection__header{
     font-size: 130px;
     text-align: center;
     letter-spacing: 3px;
@@ -111,13 +111,13 @@ header{
     background-color: #293039;
     border-radius: 10px;
 }
-.box-heading{
+.box__header{
     transform: translateY(130px);
     color:white;
     text-align: center;
     font-size: 48px;
 }
-.box-text{
+.box__description{
     margin-top: 150px;
     color: white;
     text-align: center;
@@ -125,13 +125,13 @@ header{
     letter-spacing: 4px;
     line-height: 30px;
 }
-.box_menu{
+.box__menu{
     list-style-type: none;
     display: flex;  
     text-align: center;       
     align-items: center;                                                         
 }
-.box_item{
+.box__item{
     width: 350px;
     height: 382px;
     background-color: #0E8784;
@@ -139,57 +139,57 @@ header{
     transform: translateY(-250px);
     border-radius: 10px;
 }
-.box_link{
+.box__link{
     text-decoration: none;
     color: white;
 }
-.headings{
+.box__img{
     margin-top: 100px;
 }
-.menu_heading{
+.box__heading{
     font-size: 32px;
 }
-.menu_text{
+.box__text{
     font-size: 20px;
 }
 
-.wrapper_heading{
+.wrapper__header{
     color: #83888F;
     margin-left: 100px;
     margin-bottom: 100px;
     margin-top: -150px;
 }
-.line{
+.wrapper__line{
     height: 5px;
     width: 850px;
     background-color: #FDDFC8;
     transform: translateX(100px);
 }
-.circle_menu{
+.wrapper__list{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     transform: translateY(-15px);
     margin-left: -50px;
 }
-.circle{
+.wrapper__circle{
     width: 31px;
     height: 31px;
     border: 2px solid #0E8784;
     border-radius: 50%;
     background-color: white;
 }
-.wrapper_menu{
+.wrapper__menu{
     list-style-type: none;
     display: flex;
     margin-left: 50px;
 }
-.wrapper_item{
+.wrapper__item{
     width: 285px;
     height: 355px;
     margin-right: 125px;
 }
-.big_heading{
+.wrapper__heading{
     font-size: 72px;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     color: #FDD6B9;
@@ -200,7 +200,7 @@ header{
 .wrapper_item p{
     line-height: 20px;
 }
-.button{
+.wrapper__btn{
     padding: 10px 20px;
     background-color: #0E8784;
     text-decoration: none;
@@ -209,12 +209,12 @@ header{
     border-radius: 5px;
     margin-left: 80px;
 }
-.button:hover{
+.wrapper__btn:hover{
     background-color: #66D2CF;
     border: 1px solid #66D2CF;
     color: #FEFCF7;
 }
-.button:active{
+.wrapper__btn:active{
     background-color: #E2DEDB;
     border: 1px solid #E2DEDB;
     color: #FEFCF7;
@@ -229,32 +229,32 @@ header{
     padding: 20px 0;
     display: flex;
 }
-.footer_menu{
+.footer__menu{
     list-style-type: none;
     display: flex;
     margin-top: 55px;
 }
-.footer_item{
+.footer__item{
     margin-left: 30px;
 }
-.footer_link{
+.footer__link{
     text-decoration: none;
     color: #83888F;
 }
-.footer_link:hover{
+.footer__link:hover{
     color: black;
     cursor:pointer;
 }
-.coffee_logo{
+.footer__logo{
     margin-top: 30px;
 }
-.image{
+.footer__image{
     width: 24px;
     height: 24px;
     margin-top: 50px;
     margin-left: 20px;
 }
-.image_div{
+.footer__image-div{
     margin-left: 200px;
 }
 
